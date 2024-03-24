@@ -1,0 +1,28 @@
+.introduction {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    gap: 2rem;
+    color: whitesmoke;
+}
+.introduction__text-container {
+    text-align: center;
+    padding-top: 0;
+    padding: 1rem;
+    padding-bottom: 0;
+
+}
+.introduction__profile {
+    max-width: 70vw;
+    border-bottom-right-radius: 15rem;
+    border-bottom-left-radius: 20rem;
+    border-top-left-radius: 15rem;
+    border-top-right-radius: 20rem;
+    box-shadow:
+        10px 10px 15px rgba(0, 0, 0, 0.442),
+        5px 5px 15px rgba(0, 0, 0, 0.442),
+        0 0 15px rgba(0, 0, 0, 0.442),
+        0 0 15px rgba(0, 0, 0, 0.442);
+    
+}
