@@ -1,0 +1,14 @@
+.skills {
+    padding: 1rem;
+    gap: 1rem;
+    color: white;
+}
+.skills__headline {
+    text-align: center;
+}
+strong {
+    font-size: 3rem;
+}
+.skill-container {
+    text-align: left;
+}

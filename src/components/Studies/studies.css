@@ -1,0 +1,12 @@
+.main-headline {
+    text-align: center;
+    color: white;
+}
+.fi-img {
+    border-radius: 1rem;
+}
+
+.text-content {
+    display: flex;
+    flex-direction: column;
+}

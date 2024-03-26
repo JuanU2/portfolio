@@ -2,19 +2,17 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 1rem;
-    gap: 2rem;
+    gap: 1rem;
     color: whitesmoke;
+    padding: 1rem;
+
 }
 .introduction__text-container {
     text-align: center;
-    padding-top: 0;
-    padding: 1rem;
-    padding-bottom: 0;
-
 }
 .introduction__profile {
     max-width: 70vw;
+    user-select: none;
     border-bottom-right-radius: 15rem;
     border-bottom-left-radius: 20rem;
     border-top-left-radius: 15rem;
