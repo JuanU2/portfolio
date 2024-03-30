@@ -4,7 +4,7 @@ import FI from "../../assets/FIMU.jpg"
 import "./studies.css"
 export default function Studies() {
   return (
-    <>
+    <main className="studies">
         <NavBar/>
         <div className="text-content">
             <h2 className="main-headline">This is where I study:</h2>
@@ -14,6 +14,6 @@ export default function Studies() {
             </section>
         </div>
         <TimeLine/> 
-    </>
+    </main>
   )
 }

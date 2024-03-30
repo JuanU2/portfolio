@@ -5,10 +5,7 @@ import './timeline.css'
 
 export default function TimeLine() {
   return (
-    <div>
-        <h3 className='timeline-headline'>
-            My studies timeline
-        </h3>
+    <div className='main-timeline'>
         <VerticalTimeline>
             <VerticalTimelineElement
             className="vertical-timeline-element--education"

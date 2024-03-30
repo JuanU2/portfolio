@@ -10,3 +10,17 @@
     display: flex;
     flex-direction: column;
 }
+@media only screen and (min-width: 1024px) {
+    .studies {
+        margin: 0;
+        padding: 1rem;
+        background-image: url(../../assets/FIMU_dark1.jpg);
+        background-size: cover;
+    }
+    .text-content {
+        display: none;
+    }
+    .fi-img {
+        display: none;
+    }
+}
