@@ -8,3 +8,9 @@ body {
     background-color: var(--background-default);
     font-family: Verdana, Tahoma, sans-serif;
 }
+
+@media only screen and (min-width: 1024px) {
+    body {
+        background: linear-gradient(to bottom, rgb(54, 51, 51),rgb(134, 130, 130) );
+    }
+}

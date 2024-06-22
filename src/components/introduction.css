@@ -25,3 +25,10 @@
         0 0 15px rgba(0, 0, 0, 0.442);
     
 }
+
+@media only screen and (min-width: 1024px) {
+    .introduction__text-container {
+        display: none;
+    }
+    
+}
